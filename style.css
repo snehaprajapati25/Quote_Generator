@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 40px;
+    
+}
+
+#banner{
+    font-size: 38px;
+    color: e2e8f0;
+    font-weight: 600;
+}
+
+#quote{
+    height: 400px;
+    width: 700px;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 30px;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+#title{
+    font-size: 25px;
+    font-weight: 600px;
+    color: #dbe4f0;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote_text{
+    color: aliceblue;
+    font-size: 40px;
+    /* line-height: 1.3; */
+    padding: 0 25px;
+}
+
+.author{
+    color: #94a3b8;
+    font-size: 20px;
+    align-self: flex-end;
+    padding-right: 30px;
+}
+
+#btn{
+    margin-top: 10px;
+    padding: 20px 25px;
+    background: linear-gradient(135deg, #54789a, #3d5c78);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    flex-direction: row;
+}
+
+#btn:hover {
+    background: linear-gradient(135deg, #648bb0, #4a6d8d);
+    transform: scale(1.05);
+}
